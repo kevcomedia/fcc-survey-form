@@ -18,9 +18,14 @@
       </header>
 
       <form id="survey-form" class="bg-green-100 text-slate-900 p-6">
-        <div>
-          <label for="name" id="name-label">Name</label>
-          <input id="name" placeholder="e.g., Jane Doe" required />
+        <div class="mb-4 flex flex-col">
+          <label for="name" id="name-label" class="mb-0.5">Name</label>
+          <input
+            id="name"
+            class="border-2 border-gray-300 px-2 py-0.5 rounded-md font-light focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-500 invalid:border-red-400 focus:invalid:ring-red-300 focus:invalid:border-red-500"
+            placeholder="e.g., Jane Doe"
+            required
+          />
         </div>
         <div>
           <label for="email" id="email-label">Email</label>
